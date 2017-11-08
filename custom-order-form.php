@@ -71,9 +71,8 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
             if( $product['product_id'] == 125 || $product['product_id'] == 471 ) { 
                 $is_product_ID = true;
             }
-
         }
-
+        
         return $is_product_ID;
     }
 }
